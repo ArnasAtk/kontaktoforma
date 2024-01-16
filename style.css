@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	background-color: cornflowerblue;
+}
+div{
+	width: 45%;
+	height: 50vh;
+	display: inline-block;
+	vertical-align: top;
+	margin: 35px;
+}
+.form{
+	height: auto;
+}
+.map{
+	height: 60vh;
+}
+form{
+	width: 100%;
+	height: auto;
+}
+input, textarea{
+	width: 100%;
+	padding: 20px;
+	border: none;
+	box-shadow: 2px 2px 5px navy;
+	border-radius: 5px;
+	margin: 7px;
+}
+.mygtukas{
+	width: 40%;
+}
+.mygtukas:hover{
+	background-color: navy;
+	color: white;
+}
+.mygtukas:active{
+	box-shadow: none;
+}
+::placeholder{
+	opacity: 0.5;
+}
+iframe{
+	width: 100%;
+	box-shadow: 2px 2px 5px navy;
+	border-radius: 5px;
+}
